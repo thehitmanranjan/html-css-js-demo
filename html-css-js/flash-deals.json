@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Nintendo Switch with Blue and Red Controllers",
+        "image": "../assets/nintendo.png",
+        "old_price": "$349",
+        "new_price": "$299"
+    },
+    {
+        "name": "Novation Launchkey Mini MK2 USB Controller",
+        "image": "../assets/novation.png",
+        "old_price": "$169",
+        "new_price": "$99"
+    },
+    {
+        "name": "Red Digital Cinema Brain with Dragon 5K Sensor",
+        "image": "../assets/red-digital-sensor.png",
+        "old_price": "$1,899",
+        "new_price": "$1,499"
+    },
+    {
+        "name": "Beats by Dr. Beats Solo3",
+        "image": "../assets/beats.png",
+        "old_price": "$399",
+        "new_price": "$299"
+    },
+    {
+        "name": "Chipolo Plus 2.0 Bluetooth Item Tracker Red",
+        "image": "../assets/chipolo.png",
+        "old_price": "$24",
+        "new_price": "$19"
+    },
+    {
+        "name": "Tascam iXZ Mic & Instrument Interface",
+        "image": "../assets/tascam.png",
+        "old_price": "$69",
+        "new_price": "$49"
+    },
+    {
+        "name": "Microsoft Surface Pro 12.3 Multi-Touch Tablet",
+        "image": "../assets/microsoft-surface.png",
+        "old_price": "$1,599",
+        "new_price": "$1,299"
+    },
+    {
+        "name": "Apple Watch Series 3 38mm Smartwatch",
+        "image": "../assets/apple-watch.png",
+        "old_price": "$399",
+        "new_price": "$299"
+    }
+]

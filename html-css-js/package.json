@@ -1,0 +1,21 @@
+{
+  "name": "ui-cross-training-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "start": "custom.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tagitlab.techaspect.com/UI/Training/ui-cross-training-2022.git"
+  },
+  "author": "Pratik Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.4",
+    "node-sass": "^4.14.1"
+  }
+}
