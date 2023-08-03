@@ -77,8 +77,8 @@ function slideCarousel(carouselType) {
     else{
         cards = document.querySelectorAll(".recommendations-card")
     }
-    for (let i = 0; i < cards.length; i++) {
-        let slideNumber = parseInt(cards[i].getAttribute("data-slide"))
+    for (const element of cards) {
+        let slideNumber = parseInt(element.getAttribute("data-slide"))
         let newSlideNumber
         if(slideNumber == 1) {
             newSlideNumber = 4
@@ -86,8 +86,8 @@ function slideCarousel(carouselType) {
         else{
             newSlideNumber = slideNumber - 1;
         }
-        cards[i].classList.remove("card"+slideNumber)
-        cards[i].classList.add("card" +newSlideNumber)
-        cards[i].setAttribute("data-slide",newSlideNumber)
+        element.classList.remove("card"+slideNumber)
+        element.classList.add("card" +newSlideNumber)
+        element.setAttribute("data-slide",newSlideNumber)
       }
 }
